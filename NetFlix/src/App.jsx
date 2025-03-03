@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <h1>react</h1>
+      <h1>Application development</h1>
     </>
   );
 }
