@@ -1,0 +1,49 @@
+.banner {
+  align-items: center;
+  display: flex;
+  height: 500px;
+}
+.back {
+  height: 500px;
+}
+.Bcontents {
+  margin-left: px;
+  overflow-wrap: break-word;
+  align-items: center;
+  width: 40%;
+}
+.banner_buttons {
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.banner_buttons .button1 {
+  cursor: pointer;
+
+  background-color: white;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.banner_buttons .button2 {
+  background-color: cadetblue;
+  cursor: pointer;
+
+  color: white;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.fade-bottom {
+  color: firebrick;
+  background-color: azure;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(37, 37, 37, 0, 91)
+  );
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.outer-container {
+  color: white;
+  height: 10vh;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+.left {
+  padding-left: 10px;
+  justify-content: space-between;
+  width: 60%;
+}
+.left ul {
+  justify-content: space-between;
+  display: flex;
+}
+.right ul {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  padding-right: 10px;
+}
+li {
+  list-style: none;
+}

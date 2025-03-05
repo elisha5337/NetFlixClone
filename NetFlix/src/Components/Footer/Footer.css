@@ -1,0 +1,30 @@
+.social ul {
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-around;
+  display: flex;
+}
+.outer {
+  position: sticky;
+  bottom: 0;
+  background-color: lightskyblue;
+}
+.des {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+.social {
+  align-items: center;
+  width: 15%;
+}
+.social .youtube {
+  align-items: center;
+  width: 15%;
+  color: red;
+}
+li {
+  cursor: pointer;
+}
