@@ -20,7 +20,7 @@ function Banner() {
 
     fetchMovie(); // Call the function to fetch movie data
   }, []); // Add an empty dependency array to run only once on mount
-  console.log("Movie has data fetched:", movie);
+  // console.log("Movie has data fetched:", movie);
   function truncate(str, n) {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
@@ -31,7 +31,6 @@ function Banner() {
         style={{
           color: "red",
           background: `url(${img1})`,
-          backgroundPosition: "centder",
           backgroundRepeat: "no-rfepeat",
         }}
       >
@@ -41,9 +40,12 @@ function Banner() {
       <div
         className="banner"
         style={{
+          //  background: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}") "center/cover no-repeat fixed"`,
           background: "cover",
           backgroundImage: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
-          backgroundPosition: "center",
+          // objectFit: "contain",
+          backgroundSize: "cover",
+          // backgroundAttachment: "fixed",
           backgroundRepeat: "no-repeat",
         }}
       >
