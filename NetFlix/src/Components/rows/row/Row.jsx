@@ -61,7 +61,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
           />
         ))}
       </div>
-      <div style={{ width: "100%", badckgroundColor: "black" }}>
+      <div style={{ width: "100%", backgroundColor: "black" }}>
         <div
           style={{
             marginTop: "0",

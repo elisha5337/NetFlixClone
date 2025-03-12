@@ -33,6 +33,13 @@
 .right {
   padding-right: 10px;
 }
+li a {
+  color: white;
+  text-decoration: none;
+}
 li {
   list-style: none;
+}
+li a:hover {
+  color: aqua;
 }
